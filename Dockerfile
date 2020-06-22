@@ -15,6 +15,6 @@ FROM nginx
 
 WORKDIR /usr/share/nginx/html/
 
-COPY --from=builder /usr/src/app/dist/app-fondos-gto/ /usr/share/nginx/html
+COPY --from=builder /usr/src/app/dist/ngNorthwind/ /usr/share/nginx/html
 
 EXPOSE 80 443

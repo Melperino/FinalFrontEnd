@@ -5,6 +5,7 @@ import { BehaviorSubject, Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { environment } from 'src/environments/environment';
 
+//@ts-ignore
 const URL_API = environment.API.EndPoint.Auth;
 
 @Injectable({ providedIn: 'root' })
