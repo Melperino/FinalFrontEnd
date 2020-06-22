@@ -31,7 +31,7 @@ placeholder="Año"
 [clearable]="false"
 placeholder="Clientes"
 [multiple]="true"
-(ngModel)]="selectedCustomer"
+[(ngModel)]="selectedCustomer"
 (change)="onChangeCustomer($event)"></ng-select> 
 <app-pie-chart
     [pieChartLabels]="pieChartLabels"
